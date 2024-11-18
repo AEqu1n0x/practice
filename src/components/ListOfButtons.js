@@ -13,15 +13,15 @@ export default function ListOfButton() {
   return (
     <div>
       <Button isActive={content === "way"} onClick={() => handleClick("way")}>
-        Пиво
+        Кнопка 1
       </Button>
       <Button isActive={content === "easy"} onClick={() => handleClick("easy")}>
-        Колбаса
+      Кнопка 2
       </Button>
       <Button isActive={content === "programm"} onClick={() => handleClick("programm")}>
-        Селедка
+      Кнопка 3
       </Button>
-      <div className="spisok">{content ? <p>{differences[content]}</p> : <p>ЖМЯКАЙ</p>}</div>
+      <div className="spisok">{content ? <p>{differences[content]}</p> : <p>Нажми</p>}</div>
     </div>
   );
 }

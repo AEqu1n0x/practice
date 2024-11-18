@@ -1,20 +1,20 @@
 export const data = [
     {
-        title:"Biba",
-        description:"Rjomba"
+        title:"Text 1",
+        description:"Description of text 1"
     },
     {
-        title:"Biba1111",
-        description:"Rjomba11111"
+        title:"Text 2",
+        description:"Description of text 3"
     },
     {
-        title:"Biba22222",
-        description:"Rjomba22222"
+        title:"Text 3",
+        description:"Description of text 2"
     }
 ]
 
 export const differences = {
-    way:'ПУТЬ ПУТЬ ПУТЬ',
-    easy:'ИЗИ ИЗИ ИЗИ',
-    programm:'ПРОГ ПРОГ ПРОГ'
+    way:'way way way way',
+    easy:'easy wasy easy',
+    programm:'Prog Prog Prog'
 }

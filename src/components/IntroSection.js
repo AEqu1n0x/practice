@@ -4,8 +4,8 @@ import "../css/Button.css";
 export default function IntroSection() {
   return (
     <section className="name">
-      <h1 style={{color:"#666"}}> Андрюха кодинг </h1>
-      <h3> Все чики пуки раз два три четыре пять бам бам бам Леха едет</h3>
+      <h1 style={{color:"#666"}}> Coding </h1>
+      <h3>  Lorem Ipsum is simply dummy text of the printing </h3>
     </section>
   );
 }
