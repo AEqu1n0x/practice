@@ -1,0 +1,58 @@
+.tab {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  text-align: center;
+}
+
+.button {
+  margin: 5px;
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.button:disabled {
+  border: none;
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  background-color: red;
+}
+
+
+.img {
+  width: 300px;
+}
+.active {
+  font-size: 20px;
+}
+
+.spisok {
+  width: 120px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  text-align: center;
+}

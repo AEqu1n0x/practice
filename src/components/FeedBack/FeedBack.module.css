@@ -1,0 +1,38 @@
+.control {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-right: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.main {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 5px solid black;
+}
+.select {
+  border-radius: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .main {
+    width: 88%;
+  }
+}

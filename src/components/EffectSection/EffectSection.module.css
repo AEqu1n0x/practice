@@ -1,0 +1,26 @@
+.main {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .main {
+    width: 95%;
+  }
+}
+
+.control {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-right: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
